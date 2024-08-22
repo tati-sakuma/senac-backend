@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <Context>
+	<Resource
+		name="SenacDS" auth="Container" type="javax.sql.DataSource"
+		maxTotal="10" maxIdle="10" maxWaitMillis="10000"
+		username="senac" password="root" driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://postgres:5432/exemplos"
+	/>
+
+</Context> -->
+
+<Context>
+    <Resource
+        name="SenacDS" auth="Container" type="javax.sql.DataSource"
+        maxTotal="10" maxIdle="10" maxWaitMillis="10000"
+        username="senac" password="UzbSVTBqz7PaR5FhSuctTJfuJIeWKo3y"
+        driverClassName="org.postgresql.Driver"
+        url="jdbc:postgresql://dpg-cr2i2n2j1k6c73e8bejg-a.oregon-postgres.render.com:5432/exemplos_ls27"
+        
+    />
+</Context>
